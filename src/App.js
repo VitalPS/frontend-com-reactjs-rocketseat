@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
+import "./App.css";
+import photo from "./assets/photo.jpg";
 
 function App() {
   const [projects, setProjects] = useState([
@@ -16,6 +18,8 @@ function App() {
   return (
     <>
       <Header title="Projects" />
+
+      <img src={photo} alt="photo" />
 
       <ul>
         {projects.map((project) => (
