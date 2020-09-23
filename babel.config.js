@@ -4,4 +4,5 @@ module.exports = {
     há como configurar em qual ambiente ele vai trabalhar -> exemplo Internet Explorer 10 */,
     "@babel/preset-react" /* adiciona as funcionalidades do react na conversão (entender JSX) */,
   ],
+  plugins: ["@babel/plugin-transform-runtime"],
 };
